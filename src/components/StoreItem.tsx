@@ -19,6 +19,7 @@ export function StoreItem({ id, name, price, imgUrl }: TStoreItemsProps) {
     <Card className="h-100">
       <Card.Img
         src={imgUrl}
+        alt={name}
         variant="top"
         height="200px"
         style={{ objectFit: "cover" }}
