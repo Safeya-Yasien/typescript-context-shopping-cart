@@ -7,7 +7,6 @@ import {
 } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { useShoppingCart } from "../context/ShoppingCartContext";
-import { CartItem } from "./CartItem";
 
 const Navbar = () => {
   const { cartQuantity, openCart } = useShoppingCart();
